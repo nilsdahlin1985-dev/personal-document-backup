@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Personal Document Backup: information about a personal rclone backup tool and its data practices."><title>Personal Document Backup</title><style>body{font:18px/1.65 system-ui,sans-serif;color:#233044;background:#f5f7fa;margin:0}main{max-width:760px;margin:60px auto;padding:36px;background:white;border:1px solid #dce3ed;border-radius:12px}h1{line-height:1.15;color:#152840;font-size:2.2rem}h2{font-size:1.2rem;margin-top:28px}a{color:#1759a6}nav{font-size:16px;border-top:1px solid #dce3ed;padding-top:20px;margin-top:36px}.label{color:#52657b;font-size:14px;letter-spacing:.08em;text-transform:uppercase}@media(max-width:600px){main{margin:16px;padding:24px}h1{font-size:1.9rem}}</style></head><body><main><p class="label">Personal utility</p>
+<h1>Personal Document Backup</h1>
+<p>A private-use backup configuration that uses <a href="https://rclone.org/">rclone</a> on the account holder's computer to export selected Google Docs into local document files.</p>
+<h2>Purpose and operation</h2>
+<p>The tool is intended to run on a schedule, download editable documents and PDF reading copies, and retain earlier local copies when documents change. Configuration and scheduling are managed on the account holder's computer.</p>
+<h2>Google account access</h2>
+<p>The desktop tool requests read-only Google Drive access so that it can list files and download or export selected documents. The permission covers viewing and downloading files accessible to the authorized account; the backup selection is controlled separately in rclone's configuration.</p>
+<p>Google sign-in is handled by Google. Credentials and authorization tokens are stored locally by the account holder and rclone.</p>
+<h2>About this website</h2>
+<p>This website provides information about the personal backup configuration. It has no sign-in form, upload feature, or connection to the account holder's documents. The document transfers take place between Google and the locally running tool.</p>
+<p>Read the <a href="privacy.html">privacy policy</a> for details about access, storage, retention, and revocation.</p>
+<h2>Use and contact</h2>
+<p>This configuration is for the account holder's own use. It is provided as a personal utility without a service guarantee; the operator is responsible for configuring and checking their backups. Questions about the configuration should be directed to the account holder who operates it.</p><nav aria-label="Site navigation"><a href="index.html">Home</a> &nbsp; / &nbsp; <a href="privacy.html">Privacy policy</a></nav></main></body></html>
